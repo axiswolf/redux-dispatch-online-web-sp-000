@@ -20,3 +20,5 @@ let action = {type: 'INCREASE_COUNT'}
 function render() {
   document.body.textContent = state.count
 }
+
+render()
